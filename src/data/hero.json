@@ -1,0 +1,17 @@
+[
+    {
+        "id": "pun",
+        "img": "../images/slide1.jpg",
+        "title": "Produits"
+    },
+    {
+        "id": "pdeux",
+        "img": "../images/slide2.jpg",
+        "title": "Services"
+    },
+    {
+        "id": "ptrois",
+        "img": "../images/slide3.jpg",
+        "title": "Partenaires"
+    }
+]

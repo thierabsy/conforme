@@ -1,0 +1,175 @@
+[
+    {
+        "id": "prod-1",
+        "img": "../images/produits/purifiant.jpg",
+        "category": "purifiants",
+        "description": "Pour atteindre le bien-être et avoir la santé, notre corps doit être débarrassé des impuretés et des toxines qu’il accumule au fil des années de notre existence et qui font inévitablement partie des contraintes de la vie moderne (environnement et alimentation et le style de vie que nous menons.)",
+        "produits": [ 
+            {
+                "prod_id": "prod-type-1",
+                "nom": "Thé équilibre",
+                "nom2": "Antilipemic tea",
+                "prix": 20000,
+                "contenu": "Boite de 40 sachets x 1,5g",
+                "utilisation": "1 à 2 sachets, 2 à 4 ", 
+                "excerpt": "Le Thé équilibre de Tiens est fait à base d’ingrédients naturels issus des phyto-essences. Non seulement il permet  d’équilibrer le taux de cholestérol dans le sang, mais il intervient dans le renforcement de l’immunité et la protection du foi. Réduire les matières grasses, dégager le cœur et réduire les battements  et augmenter le volume du flux sanguin dans les artères.",
+                "description": [
+                    "Le Thé équilibre de Tiens est fait à base d’ingrédients naturels issus des phyto-essences. Non seulement il permet  d’équilibrer le taux de cholestérol dans le sang, mais il intervient dans le renforcement de l’immunité et la protection du foi. Réduire les matières grasses, dégager le cœur et réduire les battements  et augmenter le volume du flux sanguin dans les artères. Améliorer la digestion et renforcer le système digestif en maintenant sains les mouvements intestinaux.",
+                    "Le principe de la fusion de l’expulsion et de la tonification aide à équilibrer la santé de votre corps. Aide dans le traitement d’anti-vieillesse, maintient le métabolisme et renforce nôtre système immunitaire. Inhibe la formation des acides gras qui aide dans la prévention des maladies coronariennes et artérielles et réduit les triglycérides du sang. Aide à maintenir une bonne vision, réduit la tension, améliore le système urinaire."
+                ], 
+                "contre_indication": "",
+                "images": [
+                    "../images/produits/the_equilibre-1.jpg",
+                    "../images/produits/the_equilibre-2.jpg"
+                ] 
+
+            },
+            {
+                "prod_id": "prod-type-2",
+                "nom": "Thé silhouette",
+                "nom2": "Slimming tea",
+                "prix": 20000,
+                "contenu": "Boîte de 40 sachets x 1,5g",
+                "utilisation": "1 à 2 sachets 2 fois",
+                "excerpt": "Le thé silhouette est un produit élaboré pour les personnes obèses ou enveloppées à la recherche d'un amaigrissement naturel, d'un peu de minceur. Il diminue le taux de lipides sanguins (diminue le cholestérol), augmente la perte de poids, aide à guérir les maladies du cœur et des vaisseaux sanguins dans le cerveau.",
+                "description": [
+                    "Le thé silhouette est un produit élaboré pour les personnes obèses ou enveloppées à la recherche d'un amaigrissement naturel, d'un peu de minceur. Il diminue le taux de lipides sanguins (diminue le cholestérol), augmente la perte de poids, aide à guérir les maladies du cœur et des vaisseaux sanguins dans le cerveau.",
+                    "Diminue la viscosité du sang, inhibe la coagulation des plaquettes sanguines.",
+                    "Nettoie le système digestif, réglemente la fonction du tube digestif, élimine la constipation.",
+                    "Antioxydant naturel, élimine les radicaux libres et ralentit le vieillissement. Améliorer l'immunité, diminue la croissance tumorale. Augmente l'apport d'oxygène dans le corps humain."
+                ],
+                "contre_indication": "Non recommandé aux enfants moins de 12 ans, aux femmes enceintes.",
+                "images": [
+                    "../images/produits/the_silhouette-1.jpg",
+                    "../images/produits/the_silhouette-2.jpg"
+                ] 
+
+            },
+            {
+                "prod_id": "prod-type-3",
+                "nom": "Chitosan",
+                "nom2": "Chitosan",
+                "prix": 20000,
+                "contenu": "Boite de 100 gels",
+                "utilisation": "L’apport quotidien recommandé est de: 2x2 gélules/jour. Pris 30 mn à 2 heures avant les repas avec un grand verre d'eau tiède",
+                "excerpt": "Le chitosan l’éboueur universel! Inhibe la croissance des cellules tumorales, renforce la fonction hépatique, prévient le diabète, accélère la guérison des plaies, stabilise la tension artérielle.",
+                "description": [
+                    "Le chitosan l’éboueur universel! Inhibe la croissance des cellules tumorales, renforce la fonction hépatique, prévient le diabète, accélère la guérison des plaies, stabilise la tension artérielle. Contient deux sortes de fibres, nommé Chitine (fibre insoluble dans l'eau) et le chitosane (fibre soluble dans l'eau).",
+                    "Le chitosane est la seule substance transporteur moléculaire élevé en ions positifs qui existent à l'état naturel. Le Chitosan capte et lie les composés d'acides gras qui ne peuvent pas être absorbés par l'intestin pour les excréter du corps humain, ce qui empêche le gras de se fixer dans le foie et les vaisseaux sanguins.",
+                    "Ce produit accélère la digestion ce qui favorise la perdre du poids, active les cellules, régule la sécrétion hormonale et le système nerveux. Possède des propriétés antivirales, antibactériennes, antimycosiques, antiparasitaires. Soulage les douleurs articulaires, règle la constipation, Stimule les défenses immunitaires. Efficace contre la fatigue, inhibe la sénescence (processus de vieillissement biologique), conseillée à la population à risque face à la grippe.",
+                    "Le Chitosan a un large champ d'application, il est complètement différent des produits santé nutritionnels habituels. Ses principales fonctions dans le corps humain: renforcement de l'immunité, inhibition de la sénescence (processus de vieillissement biologique), prévenir les maladies, réglementer les activités physiologiques du corps humain."
+                ],
+                "contre_indication": "Non recommandé aux enfants moins, aux femmes enceintes, aux sujets allergiques aux crustacés et aux sujets suivant un régime non gras.",
+                "images": [
+                    "../images/produits/chitosan-1.jpg",
+                    "../images/produits/chitosan-2.jpg"
+                ]
+            },
+            {
+                "prod_id": "prod-type-4",
+                "nom": "Double cellulose (Fibres)",
+                "nom2": "Double cellulose (Fibres)",
+                "prix": 20000,
+                "contenu": "Boite de 70 comprimés x 1g",
+                "utilisation": "2 ou 3 comprimés 2 à 3 fois par jour",
+                "excerpt":"Est-vous constipé ? Luttez-vous contre l’artériosclérose? Etes-vous impliqué dans la lutte contre l’excès de poids ?  Dans ces cas vous avez besoin des composés à DOUBLE CELLULOSE (FIBRES).",
+                "description": [
+                    "Est-vous constipé ? Luttez-vous contre l’artériosclérose? Etes-vous impliqué dans la lutte contre l’excès de poids ?  Dans ces cas vous avez besoin des composés à DOUBLE CELLULOSE (FIBRES).",
+                    "Elle aide à améliorer l’absorption des molécules nutritives en prévenant leur contact avec la surface absorbée.",
+                    "Quand elle est utilisée avec le thé équilibre et le thé amaigrissant, elle forme une formule parfaite pour la perte de poids. Retarde l’absorption du cholestérol et d’autres stérols. Stimule la fermentation bactérienne dans le côlon et aide les personnes atteintes des maladies intestinales (ulcère…)",
+                    "DOUBLE CELLULOSE (FIBRES) est un complément alimentaire contenant des fibres alimentaires.",
+                    "Retient l’eau dans le côlon qui augment ainsi le poids des scelles et prévient la constipation. Nous savons que l’intestin sain, grâce à sa flore intestinale, contribue au bon fonctionnement de notre système immunitaire. La flore intestinale vit en symbiose avec le reste du corps. Elle a besoin, pour maintenir son équilibre, d’un matrix particulier: Les fibres. Les fibres non digestibles contenues dans nos aliments. Les fibres constituent un élément important de notre nutrition. Bien qu’elles ne nous nourrissent pas directement, elles nourrissent les micro-organismes qui maintiennent notre système digestif en bonne santé, à savoir les bactéries intestinales. L’Académie de Médecine de Chine recommande une ingestion journalière minimale de 30g de fibres.",
+                    "Les tablettes sont spécialement élaborées pour fournir à votre organisme le complément de fibres nécessaires. Elles favorisent votre bien-être général.",
+                    "LES TABLETTES DE CELLULOSE TIENS RENFERMENT UN INGREDIENT CHINOIS SPECIAL, A SAVOIR DE LA POUDRE D’AUBEPINE BLANCHE."
+                ],
+                "contre_indication": "Non recommandé aux enfants moins, aux femmes enceintes, aux sujets allergiques aux crustacés et aux sujets suivant un régime non gras.",
+                "images": [
+                    "../images/produits/double-cellulose.jpg",
+                    "../images/produits/double-cellulose.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "prod-2",
+        "img": "../images/produits/immunisant.png",
+        "category": "immunisants",
+        "description": "Pour atteindre le bien-être et avoir la santé, notre corps doit être débarrassé des impuretés et des toxines qu’il accumule au fil des années de notre existence et qui font inévitablement partie des contraintes de la vie moderne (environnement et alimentation et le style de vie que nous menons.)",
+        "produits": [
+            {
+                "prod_id": "prod-type-1",
+                "nom": "Thé équilibre",
+                "nom2": "Antilipemic tea",
+                "prix": 20000,
+                "contenu": "Boite de 40 sachets x 1,5g",
+                "utilisation": "1 à 2 sachets, 2 à 4 ",
+                "excerpt": "Le Thé équilibre de Tiens est fait à base d’ingrédients naturels issus des phyto-essences. Non seulement il permet  d’équilibrer le taux de cholestérol dans le sang, mais il intervient dans le renforcement de l’immunité et la protection du foi.",
+                "description": [
+                    "Le Thé équilibre de Tiens est fait à base d’ingrédients naturels issus des phyto-essences. Non seulement il permet  d’équilibrer le taux de cholestérol dans le sang, mais il intervient dans le renforcement de l’immunité et la protection du foi. Réduire les matières grasses, dégager le cœur et réduire les battements  et augmenter le volume du flux sanguin dans les artères. Améliorer la digestion et renforcer le système digestif en maintenant sains les mouvements intestinaux.",
+                    "Le principe de la fusion de l’expulsion et de la tonification aide à équilibrer la santé de votre corps. Aide dans le traitement d’anti-vieillesse, maintient le métabolisme et renforce nôtre système immunitaire. Inhibe la formation des acides gras qui aide dans la prévention des maladies coronariennes et artérielles et réduit les triglycérides du sang. Aide à maintenir une bonne vision, réduit la tension, améliore le système urinaire."
+                ], 
+                "contre_indication": "",
+                "images": [
+                    "../images/produits/immunisant-1.jpg",
+                    "../images/produits/immunisant-2.png"
+                ] 
+
+            }
+        ]
+    },
+    {
+        "id": "prod-3",
+        "img": "../images/produits/complement.jpg",
+        "category": "compléments",
+        "description": "Pour atteindre le bien-être et avoir la santé, notre corps doit être débarrassé des impuretés et des toxines qu’il accumule au fil des années de notre existence et qui font inévitablement partie des contraintes de la vie moderne (environnement et alimentation et le style de vie que nous menons.)",
+        "produits": [
+            {
+                "prod_id": "prod-type-1",
+                "nom": "Thé équilibre",
+                "nom2": "Antilipemic tea",
+                "prix": 20000,
+                "contenu": "Boite de 40 sachets x 1,5g",
+                "utilisation": "1 à 2 sachets, 2 à 4 ",
+                "excerpt":"Le Thé équilibre de Tiens est fait à base d’ingrédients naturels issus des phyto-essences. Non seulement il permet  d’équilibrer le taux de cholestérol dans le sang, mais il intervient dans le renforcement de l’immunité et la protection du foi. Réduire les matières grasses, dégager le cœur et réduire les battements  et augmenter le volume du flux sanguin dans les artères.",
+                "description": [
+                    "Le Thé équilibre de Tiens est fait à base d’ingrédients naturels issus des phyto-essences. Non seulement il permet  d’équilibrer le taux de cholestérol dans le sang, mais il intervient dans le renforcement de l’immunité et la protection du foi. Réduire les matières grasses, dégager le cœur et réduire les battements  et augmenter le volume du flux sanguin dans les artères. Améliorer la digestion et renforcer le système digestif en maintenant sains les mouvements intestinaux.",
+                    "Le principe de la fusion de l’expulsion et de la tonification aide à équilibrer la santé de votre corps. Aide dans le traitement d’anti-vieillesse, maintient le métabolisme et renforce nôtre système immunitaire. Inhibe la formation des acides gras qui aide dans la prévention des maladies coronariennes et artérielles et réduit les triglycérides du sang. Aide à maintenir une bonne vision, réduit la tension, améliore le système urinaire."
+                ], 
+                "contre_indication": "",
+                "images": [
+                    "../images/produits/complement-1.jpg",
+                    "../images/produits/complement-2.jpg"
+                ] 
+
+            }
+        ]
+    },
+    {
+        "id": "prod-4",
+        "img": "../images/produits/appareil.jpg",
+        "category": "appareils",
+        "description": "Pour atteindre le bien-être et avoir la santé, notre corps doit être débarrassé des impuretés et des toxines qu’il accumule au fil des années de notre existence et qui font inévitablement partie des contraintes de la vie moderne (environnement et alimentation et le style de vie que nous menons.)",
+        "produits": [
+            {
+                "prod_id": "prod-type-1",
+                "nom": "Thé équilibre",
+                "nom2": "Antilipemic tea",
+                "prix": 20000,
+                "contenu": "Boite de 40 sachets x 1,5g",
+                "utilisation": "1 à 2 sachets, 2 à 4 ",
+                "excerpt": "Le Thé équilibre de Tiens est fait à base d’ingrédients naturels issus des phyto-essences. Non seulement il permet  d’équilibrer le taux de cholestérol dans le sang, mais il intervient dans le renforcement de l’immunité et la protection du foi. Réduire les matières grasses, dégager le cœur et réduire les battements  et augmenter le volume du flux sanguin dans les artères.",
+                "description": [
+                    "Le Thé équilibre de Tiens est fait à base d’ingrédients naturels issus des phyto-essences. Non seulement il permet  d’équilibrer le taux de cholestérol dans le sang, mais il intervient dans le renforcement de l’immunité et la protection du foi. Réduire les matières grasses, dégager le cœur et réduire les battements  et augmenter le volume du flux sanguin dans les artères. Améliorer la digestion et renforcer le système digestif en maintenant sains les mouvements intestinaux.",
+                    "Le principe de la fusion de l’expulsion et de la tonification aide à équilibrer la santé de votre corps. Aide dans le traitement d’anti-vieillesse, maintient le métabolisme et renforce nôtre système immunitaire. Inhibe la formation des acides gras qui aide dans la prévention des maladies coronariennes et artérielles et réduit les triglycérides du sang. Aide à maintenir une bonne vision, réduit la tension, améliore le système urinaire."
+                ], 
+                "contre_indication": "",
+                "images": [
+                    "../images/produits/appareil-1.jpg",
+                    "../images/produits/appareil-2.jpg"
+                ] 
+
+            }
+        ]
+    }
+
+]

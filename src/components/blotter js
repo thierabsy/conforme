@@ -1,0 +1,22 @@
+
+// cdn fliesMaterial
+
+let text = new Blotter.Text( "My Text", {
+    family: "Monserat",
+    size: 300,
+    fill: "#000",
+    padding: 20
+})
+
+let material = new Blotter.FliesMaterial();
+material.uniforms.uPointCellWidth.value = 0.01;
+material.uniforms.uPointRadius.value = 0.5;
+material.uniforms.uSpeed.value = 2;
+
+let blotter = new Blotter(material, {
+    texts: text
+})
+
+let scope = blotter.forText(text)
+
+scope.appendTo(document.body)

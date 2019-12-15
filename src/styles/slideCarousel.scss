@@ -1,0 +1,134 @@
+@import "variables.scss";
+
+.SlideCarousel{
+    position: relative;
+    width: 100%;
+    // min-height: 250px;
+    .ts-header{
+        position: relative;
+        z-index: 2;
+        h2{
+            padding: 10px;
+            margin-bottom: 5px;
+            font-size: 1.2em;
+            span{
+                padding: 0 5px;
+                background: gainsboro;
+            }
+        }
+    }
+    .sc-inner{
+        // &:after {
+        //     content: "";
+        //     width: 0;
+        //     height: 0;
+        //     border-width: 0 0 250px 250px;
+        //     border-color: transparent transparent rgba(246, 47, 94, 0.25);
+        //     border-style: solid;
+        //     position: absolute;
+        //     bottom: 0px;
+        //     right: 0;
+        //     z-index: 1;
+        // }
+        // &:before {
+        //     content: "";
+        //     width: 0;
+        //     height: 0;
+        //     border-width: 250px 250px 0 0;
+        //     border-color: rgba(246, 47, 94, 0.25) transparent transparent;
+        //     border-style: solid;
+        //     position: absolute;
+        //     top: 0px;
+        //     left: 0;
+        //     z-index: 1;
+        // }
+        .slides-list{
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            z-index: 2;
+            @media only screen and (max-width: 512px){
+                overflow: auto;
+                .sa-btn.sa-btn-action{
+                    display: none !important;
+                }
+            }
+            .slides-track{
+                display: inline-flex;
+                .sc-slide{
+                    
+                }
+            }
+        }
+        .slides-actions{
+            padding-bottom: 10px;
+            padding-right: 10px;
+            // position: relative;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            z-index: 2;
+            // .sa-btn{
+            //     background: white;
+            //     line-height: 100%;
+            //     border: 1px solid gainsboro;
+            //     padding: 4px 5px 0;
+            //     cursor: pointer;
+            //     svg{
+            //         font-size: 30px;
+            //     }
+            //     &.sa-prev{
+
+            //     }
+            //     &.sa-link{
+            //         background: rgba(246, 47, 94, 0.68);
+            //         display: flex;
+            //         align-items: center;
+            //         justify-content: center;
+            //         padding: 0 5px !important;
+            //         a{
+            //             display: block;
+            //         }
+            //     }
+            //     &.sa-next{
+
+            //     }
+            // }
+            .sa-btn.sa-btn-action {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                color: white;
+                background: $green1;
+                // color: $sn_green;
+                // background: linear-gradient(90deg, $sn_green, $sn_yellow, $sn_red);
+                z-index: 2;
+                padding: 10px;
+                font-size: 30px;
+                border-radius: 50%;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.39);
+                transition: all 0.5s;
+                cursor: pointer;
+                &.sa-prev{
+                    left: -25px;
+                }
+                &.sa-next{
+                    right: -25px;
+                }
+                &.limit{
+                    opacity: 0;
+                    cursor: none;
+                    transition: all 0.5s;
+                }
+                &:hover{
+                    background: $yellow1;
+                    color: rgba(255, 255, 255, 0.62);
+                }
+            }
+        }
+    }
+}
+
