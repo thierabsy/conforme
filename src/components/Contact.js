@@ -34,7 +34,7 @@ const Contact = () => {
             <span>Envoyez nous un message</span>
           </div>
           <div className="cfb-form">
-            <form name="Contact" method="POST" data-netlify="true">
+            <form name="Contact" method="POST" data-netlify="true">data-netlify="true"
               <div className="form-control">
                 <label htmlFor="nom">Votre Nom:</label>
                 <input type="text" name="nom" id="nom" required />
@@ -52,7 +52,7 @@ const Contact = () => {
                 <textarea name="message" id="message" rows="5" />
               </div>
               <div className="form-control">
-                <div data-netlify="true" />
+                <div data-netlify-recaptcha="true" />
               </div>
               <div className="btn-submit">
                 <button type="submit">Envoyer</button>
