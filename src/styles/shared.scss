@@ -44,6 +44,14 @@ header{
             padding: 0 5px;
         }
         .tph-items{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            font-size: 15px;
+            svg{
+                font-size: 1.5em;
+            }
             a{
                 display: flex;
                 flex-direction: column;
@@ -100,6 +108,7 @@ header{
     @media only screen and (max-width: 512px) {
         ul{
             li{
+                font-size: 15px !important;
                 a{
                     font-size: 15px !important;
                 }
@@ -467,7 +476,99 @@ footer{
 
 
 .contact-form{
-    
+    position: relative;
+    z-index: 10000;
+    ul{
+        display: flex;
+        // flex-direction: column;
+        li{
+            padding: 0 5px;
+        }
+        .tph-items{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            font-size: 15px;
+            svg{
+                font-size: 1.5em;
+            }
+            a{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: white;
+                svg{
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+    .cf-content {
+        min-width: 70%;
+        height: 95vh;
+        background: white;
+        overflow-y: auto;
+    }
+    .cf-header{
+        padding: 10px;
+    }
+    .cf-body{
+        padding-top: 20px;
+        padding: 10px;
+        position: relative;
+        .btn-fermer{
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 0 10px;
+            color: white;
+            background: $red;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .cfb-header {
+            text-align: center;
+            font-size: 1.4em;
+            padding: 10px;
+            margin-bottom: 25px;
+            color: $blue;
+            span{
+                border-bottom: 2px solid $blue;
+            }
+        }
+        .cfb-form{
+            .form-control{
+                margin-bottom: 15px;
+                label{
+                    display: block;
+                }
+                textarea, input{
+                    width: 100%;
+                    border: 1px solid gainsboro;
+                    padding: 5px;
+                    border-radius: 5px;
+                }
+                // textarea{
+                //     width: 100%;
+                // }
+            }
+        }
+    }
+    .btn-submit{
+        text-align: center;
+        padding: 10px;
+        button{
+            border: none;
+            padding: 5px 15px;
+            color: white;
+            background: $blue;
+            cursor: pointer;
+        }
+    }
+    .slogan-modal{
+        cursor: auto !important;
+    }
 }
 
 .slogan-modal{

@@ -1,16 +1,16 @@
 import React, { useContext } from "react"
-import { FaWindowClose, FaHome, FaMobile, FaEnvelope } from "react-icons/fa"
+import {  FaHome, FaMobile, FaEnvelope } from "react-icons/fa"
 import MainContext from "../context-api/MainContext";
 import { contacts } from "../data"
 
-const Slogan = () => {
+const Contact = () => {
   const context = useContext(MainContext);
   const { state: { showContact }, toggler } = context;
 
   return(
     <div className="contact-form">
-      <div className={`slogan-modal ${ showContact ? "showModal" : ""}`} 
-          onClick={() => toggler("showContact")}>
+      <div className={`slogan-modal ${ showContact ? "showModal" : ""}`}>
+        <div className="cf-content">
         <div className="cf-header">
           <div className="top">
             <div className="topLeft">
@@ -27,8 +27,11 @@ const Slogan = () => {
           </div>
         </div>
         <div className="cf-body">
+          <div className="btn-fermer"  onClick={() => toggler("showContact")}>
+            Fermer
+          </div>
           <div className="cfb-header">
-            Envoyez nous un message
+            <span>Envoyez nous un message</span>
           </div>
           <div className="cfb-form">
             <form action="POST" data-netlify="true">
@@ -49,9 +52,13 @@ const Slogan = () => {
                 <textarea name="message" id="message" rows="5" />
               </div>
               <div className="form-control">
+                <div data-netlify="true" />
+              </div>
+              <div className="btn-submit">
                 <button type="submit">Envoyer</button>
               </div>
             </form>
+          </div>
           </div>
         </div>
       </div>
@@ -59,4 +66,4 @@ const Slogan = () => {
   )
 
 }
-export default Slogan;
+export default Contact;
