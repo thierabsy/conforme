@@ -44,9 +44,9 @@ exports.createPages = async ({ actions: { createPage }, graphql}) => {
     //     component: require.resolve("./src/templates/service.js")
     // })
 
-    createPage({
-        path: `/bienfaits`,
-        component: require.resolve("./src/templates/bienfaitMaladie.js")
-    })
+    // createPage({
+    //     path: `/bienfaits`,
+    //     component: require.resolve("./src/templates/bienfaitMaladie.js")
+    // })
     
 }   

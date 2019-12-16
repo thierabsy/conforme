@@ -34,11 +34,11 @@ function SEO({ description, lang, meta, title= "" }) {
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
-      script={[
-        {
-          src: "https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.4.0/dist/lazyload.min.js"
-        }
-      ]}
+      // script={[
+      //   {
+      //     src: "https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.4.0/dist/lazyload.min.js"
+      //   }
+      // ]}
       meta={[
         {
           name: `description`,

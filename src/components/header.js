@@ -36,7 +36,7 @@ const Header = ({ active="" }) => (
               <div className="top container">
                 <div className="topRight">
                   <Link to="/">
-                    <img src="/logo.jpg" alt="Logo" />
+                    <img src="/logo.png" alt="Logo" />
                   </Link>
                 </div>
                 <div className="topLeft navigation">
