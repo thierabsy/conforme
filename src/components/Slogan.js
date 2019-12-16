@@ -15,9 +15,10 @@ const Slogan = () => {
           <FaWindowClose />
         </span> */}
         <img src="/images/enseigne2.jpg" alt="Slogan" />
+        {/* <img src="/images/enseigne2.jpg" alt="Slogan" /> */}
       </div>
       <div className="slogan" onClick={() => toggler("showSlogan")}>
-        <img src="/images/enseigne2.jpg" alt="Slogan" />
+        <img src="/logo.png" alt="Slogan" />
         <div className="slogan-agrandir">
           <span>Agrandir</span>
         </div>

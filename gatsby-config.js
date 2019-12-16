@@ -36,10 +36,10 @@ module.exports = {
         name: `AGS Immobilier`,
         short_name: `AGS Immo`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#50b748`,
+        background_color: `#fff`,
+        theme_color: `#ed1b24`,
         display: `minimal-ui`,
-        icon: `src/images/icons/icon-72x72.png`, 
+        icon: `src/images/logo.png`, 
         icons: [
           {
             src: `/icons/icon-72x72.png`,

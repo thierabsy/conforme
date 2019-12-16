@@ -411,6 +411,11 @@
     display: flex;
     flex-wrap: wrap;
     background: $red;
+    @media only screen and (max-width: 728px){
+        .hpa{
+            width: 100% !important;
+        }
+    }
     .hpa{
         width: 50%;
         min-width: 350px;
@@ -446,9 +451,8 @@
                 padding: 40px 25px 40px 60px;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.36);
                 position: relative;
-                @media only screen and (max-width: 720px){
-                    margin-left: 0;
-                    margin-top: -50px;
+                @media only screen and (max-width: 728px){
+                    margin: -50px auto 10px;
                     padding: 10px;
                     text-align: center;
                 }

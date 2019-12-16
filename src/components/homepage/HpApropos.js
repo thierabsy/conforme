@@ -20,7 +20,7 @@ const HpApropos = () => {
                         </p>
                     </Slide>
                     <Slide bottom>
-                        <Link to="apropos">
+                        <Link to="/apropos-ags-immo">
                             <button>En savoir plus ...</button>
                         </Link>
                     </Slide>

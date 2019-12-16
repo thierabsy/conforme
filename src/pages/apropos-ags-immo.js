@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../styles/emploi.scss"
 import MainContext from "../context-api/MainContext";
-import Slogan from "../components/Contact";
+import Slogan from "../components/Slogan";
 import { nosservices } from "../data";
 import Modal from "../components/Modal";
 
@@ -40,7 +40,7 @@ const AproposPage = () => {
                                 <img src="/images/confiance-agsimmo-c.jpg" alt="Confiance Ags Immo" />
                             </div>
                           <div className="ap-wrapper">   
-                            <div className="apropos-body">
+                            <div className="apropos-body apb apb-left">
                                 <div className="ap-header">
                                     <h2>AGS Immo: A Propos de Notre Agence</h2>
                                     <p>Expérience - Confiance - Qualité - Sécurité</p>
@@ -62,7 +62,7 @@ const AproposPage = () => {
                                 </div>
                                 <HpLocalites />
                             </div>
-                            <aside>
+                            <aside className="aside apb apb-right">
                               <div className="sticky-content">
                                 <div className="ap-annonce">
                                   Terrains à vendre et coopérative d'habitat
