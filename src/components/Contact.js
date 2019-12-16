@@ -9,76 +9,57 @@ const Contact = () => {
 
   return(
     <div className="contact-form">
-      <div className={`slogan-modal ${ showContact ? "showModal" : ""}`}>
+      <div className="container">
+      {/* <div className={`slogan-modal ${ showContact ? "showModal" : ""}`}> */}
         <div className="cf-content">
-        <div className="cf-header">
-          <div className="top">
-            <div className="topLeft">
-              <ul>
-                <li className="tph-items"> <FaHome /> <span> { contacts.adress } </span> </li>
-              </ul>
+          {/* <div className="cf-header">
+            <div className="top">
+              <div className="topLeft">
+                <ul>
+                  <li className="tph-items"> <FaHome /> <span> { contacts.adress } </span> </li>
+                </ul>
+              </div>
+              <div className="topRight">
+                <ul>
+                  <li className="tph-items"><a color="white" href={`mailto:${ contacts.tel }`}>  <FaMobile /> <span> { contacts.tel } </span> </a></li>
+                  <li className="tph-items"><a color="white" href={`mailto:${ contacts.email }`}>  <FaEnvelope /> <span> { contacts.email } </span> </a></li>
+                </ul>
+              </div>
             </div>
-            <div className="topRight">
-              <ul>
-                <li className="tph-items"><a color="white" href={`mailto:${ contacts.tel }`}>  <FaMobile /> <span> { contacts.tel } </span> </a></li>
-                <li className="tph-items"><a color="white" href={`mailto:${ contacts.email }`}>  <FaEnvelope /> <span> { contacts.email } </span> </a></li>
-              </ul>
+          </div> */}
+          <div className="cf-body">
+            {/* <div className="btn-fermer"  onClick={() => toggler("showContact")}>
+              Fermer
+            </div> */}
+            <div className="cfb-header">
+              <span>Envoyez nous un message</span>
             </div>
-          </div>
-        </div>
-        <div className="cf-body">
-          <div className="btn-fermer"  onClick={() => toggler("showContact")}>
-            Fermer
-          </div>
-          <div className="cfb-header">
-            <span>Envoyez nous un message</span>
-          </div>
-          <div className="cfb-form">
-            {/* <form name="Contact" method="POST" data-netlify="true">
-              <div className="form-control">
-                <label htmlFor="nom">Votre Nom:</label>
-                <input type="text" name="nom" id="nom" required />
-              </div>
-              <div className="form-control">
-                <label htmlFor="email">Votre email:</label>
-                <input type="email" name="email" id="email" required />
-              </div>
-              <div className="form-control">
-                <label htmlFor="objet">Objet de votre message:</label>
-                <input type="text" name="objet" id="objet" required />
-              </div>
-              <div className="form-control">
-                <label htmlFor="objet">Votre Message:</label>
-                <textarea name="message" id="message" rows="5" />
-              </div>
-              <div className="form-control">
-                <div data-netlify-recaptcha="true" />
-              </div>
-              <div className="btn-submit">
-                <button type="submit">Envoyer</button>
-              </div>
-            </form> */}
-            <form name="contact" method="POST" data-netlify="true">
-              <p>
-                <label>Your Name: <input type="text" name="name" /></label>   
-              </p>
-              <p>
-                <label>Your Email: <input type="email" name="email" /></label>
-              </p>
-              <p>
-                <label>Your Role: <select name="role[]" multiple>
-                  <option value="leader">Leader</option>
-                  <option value="follower">Follower</option>
-                </select></label>
-              </p>
-              <p>
-                <label>Message: <textarea name="message"></textarea></label>
-              </p>
-              <p>
-                <button type="submit">Send</button>
-              </p>
-            </form>
-          </div>
+            <div className="cfb-form">
+              <form name="Contact" method="POST" data-netlify="true">
+                <div className="form-control">
+                  <label htmlFor="nom">Votre Nom*:</label>
+                  <input type="text" name="nom" id="nom" required />
+                </div>
+                <div className="form-control">
+                  <label htmlFor="email">Votre email*:</label>
+                  <input type="email" name="email" id="email" required />
+                </div>
+                <div className="form-control">
+                  <label htmlFor="objet">Objet de votre message*:</label>
+                  <input type="text" name="objet" id="objet" required />
+                </div>
+                <div className="form-control">
+                  <label htmlFor="objet">Votre Message*:</label>
+                  <textarea name="message" id="message" rows="5" required/>
+                </div>
+                <div className="form-control">
+                  <div data-netlify-recaptcha="true" />
+                </div>
+                <div className="btn-submit">
+                  <button type="submit">Envoyer</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>

@@ -152,6 +152,9 @@ header{
                 text-shadow: 1px 1px 5px black;
                 color: rgb(247, 243, 243) !important;
                 cursor: pointer;
+                a{
+                    color: white !important;
+                }
             }
         }
     }
@@ -195,6 +198,9 @@ header{
         font-weight: bold;
         padding: 5px 10px;
         cursor: pointer;
+        a{
+            color: white !important;
+        }
     }
 }
 
@@ -506,9 +512,10 @@ footer{
     }
     .cf-content {
         min-width: 70%;
-        height: 95vh;
+        // height: 95vh;
         background: white;
         overflow-y: auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.44);
     }
     .cf-header{
         padding: 10px;
