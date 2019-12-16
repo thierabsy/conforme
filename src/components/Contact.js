@@ -34,7 +34,7 @@ const Contact = () => {
             <span>Envoyez nous un message</span>
           </div>
           <div className="cfb-form">
-            <form action="POST" data-netlify="true">
+            <form name="Contact" method="POST" data-netlify="true">
               <div className="form-control">
                 <label htmlFor="nom">Votre Nom:</label>
                 <input type="text" name="nom" id="nom" required />
