@@ -45,6 +45,10 @@ function SEO({ description, lang, meta, title= "" }) {
           content: metaDescription,
         },
         {
+          name: `image`,
+          content: `https://www.agence-agsimmo.com/images/banner-agsimmo.jpg`,
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -57,6 +61,10 @@ function SEO({ description, lang, meta, title= "" }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: `https://www.agence-agsimmo.com/images/banner-agsimmo.jpg`,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
@@ -67,6 +75,10 @@ function SEO({ description, lang, meta, title= "" }) {
         {
           name: `twitter:title`,
           content: title,
+        },
+        {
+          name: `twitter:image`,
+          content: `https://www.agence-agsimmo.com/images/banner-agsimmo.jpg`,
         },
         {
           name: `twitter:description`,
