@@ -55,7 +55,7 @@ export const nosservices =  [
         " Nous vous accompagnons durant toute la procédure de réalisation et de construction votre projet immobilier."
       ],
       excerpt: "Construction d'ouvrages immobiliers à usage locative, d'habitation, bureaux.",
-      image: "construction.jpg",
+      image: "construction.jpeg",
       icon: "construction.png",
       icon2: "construction-c.png",
    },

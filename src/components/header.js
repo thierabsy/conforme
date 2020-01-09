@@ -26,7 +26,7 @@ const Header = ({ active="" }) => (
                 </div>
                 <div className="topRight">
                   <ul>
-                    <li className="tph-items"><a color="white" href={`mailto:${ contacts.tel }`}>  <FaMobile /> <span> { contacts.tel } </span> </a></li>
+                    <li className="tph-items"><a color="white" href={`tel:${ contacts.tel2 }`}>  <FaMobile /> <span> { contacts.tel2 } </span> </a></li>
                     <li className="tph-items"><a color="white" href={`mailto:${ contacts.email }`}>  <FaEnvelope /> <span> { contacts.email } </span> </a></li>
                   </ul>
                 </div>

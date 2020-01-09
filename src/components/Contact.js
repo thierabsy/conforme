@@ -8,57 +8,42 @@ const Contact = () => {
   const { state: { showContact }, toggler } = context;
 
   return(
-    <div className="contact-form">
+    <div className="contact-form-2">
       <div className="container">
-      {/* <div className={`slogan-modal ${ showContact ? "showModal" : ""}`}> */}
+        <div className="cfc-header">
+          <img src={`/images/contact.jpg`} alt="Conatct AGS Immo" />
+        </div>
         <div className="cf-content">
-          {/* <div className="cf-header">
-            <div className="top">
-              <div className="topLeft">
-                <ul>
-                  <li className="tph-items"> <FaHome /> <span> { contacts.adress } </span> </li>
-                </ul>
-              </div>
-              <div className="topRight">
-                <ul>
-                  <li className="tph-items"><a color="white" href={`mailto:${ contacts.tel }`}>  <FaMobile /> <span> { contacts.tel } </span> </a></li>
-                  <li className="tph-items"><a color="white" href={`mailto:${ contacts.email }`}>  <FaEnvelope /> <span> { contacts.email } </span> </a></li>
-                </ul>
-              </div>
+          <div className="cfc-text"> Nous Contacter </div>
+          <div className="cfc cfc-item-left">
+            <div className="c">
+                <span>Adresse:</span> { contacts.adress } - { contacts.adress_suite }
             </div>
-          </div> */}
-          <div className="cf-body">
-            {/* <div className="btn-fermer"  onClick={() => toggler("showContact")}>
-              Fermer
-            </div> */}
-            <div className="cfb-header">
-              <span>Envoyez nous un message</span>
+            <div className="c">
+                <span>Email:</span> <a href={`mailto:${ contacts.email }`}> { contacts.email }</a>
             </div>
-            <div className="cfb-form">
-              <form name="Contact" method="POST" data-netlify="true">
-                <div className="form-control">
-                  <label htmlFor="nom">Votre Nom*:</label>
-                  <input type="text" name="nom" id="nom" required />
-                </div>
-                <div className="form-control">
-                  <label htmlFor="email">Votre email*:</label>
-                  <input type="email" name="email" id="email" required />
-                </div>
-                <div className="form-control">
-                  <label htmlFor="objet">Objet de votre message*:</label>
-                  <input type="text" name="objet" id="objet" required />
-                </div>
-                <div className="form-control">
-                  <label htmlFor="objet">Votre Message*:</label>
-                  <textarea name="message" id="message" rows="5" required/>
-                </div>
-                <div className="form-control">
-                  <div data-netlify-recaptcha="true" />
-                </div>
-                <div className="btn-submit">
-                  <button type="submit">Envoyer</button>
-                </div>
-              </form>
+            <div className="c">
+                <span>Téléphone fixe: </span> <a href={`tel:${ contacts.tel }`}> { contacts.tel }</a>
+            </div>
+            <div className="c">
+                <span>Téléphone Orange:</span> <a href={`tel:${ contacts.tel2 }`}> { contacts.tel2 }</a>
+            </div>
+            <div className="c">
+                <span>Téléphone Free:</span> <a href={`tel:${ contacts.tel3 }`}> { contacts.tel3 }</a>
+            </div>
+              
+          </div>
+          <div className="cfc cfc-item-right">
+            <div className="c">
+              <h4>Réseaux sociaux</h4>
+                <ul>
+                { contacts.socials && 
+                  contacts.socials.map(rs => <li key={"rs-" + rs.name}>
+                    <a href={`${ rs.link }`}> { rs.icon }</a>
+                  </li>
+                  ) 
+                }
+                </ul>
             </div>
           </div>
         </div>

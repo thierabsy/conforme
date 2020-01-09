@@ -90,3 +90,84 @@
         }
     } 
 }
+
+.contact-form-2{
+    .cfc-header{
+        padding: 10px;
+        background: $red;
+        img{
+
+        }
+    }
+    .cf-content{
+        margin: -20px 10px 0;
+        background: linear-gradient(-45deg, rgba(144, 46, 46, 0.97), rgba(255, 82, 89, 0.95));
+        box-shadow: 0 0 21px black;
+        padding: 10px;
+        position: relative;
+        
+        // &:before, &:after{
+        //     content: "";
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     width: 60%;
+        //     height: 50%;
+        //     background: rgba(243, 230, 230, 0.88);
+        //     transform: skewY(10deg);
+        // }
+        // &:before{
+        //     right: 0;
+        //     background: rgba(243, 230, 230, 0.88);
+        //     transform: skewY(-10deg);
+        //     left: auto;
+        // }
+        a{
+            color: gainsboro !important;
+        }
+        .cfc-text{
+            background: $red;
+            color: gainsboro !important;
+            text-align: center;
+            padding: 10px;
+            max-width: 300px;
+            border-radius: 10px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+        .cfc{
+            min-height: 35vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+            z-index: 2;
+            @media only screen and (max-width: 728px) {
+                align-items: center;
+                &.cfc-item-right{
+                    align-items: center !important;
+                }
+            }
+            &.cfc-item-left{
+                span{
+                    text-decoration: underline;
+                }
+            }
+            &.cfc-item-right{
+                justify-content: center;
+                align-items: flex-end;
+                h4{
+
+                }
+                ul{
+                    display: flex;
+                    justify-content: center;
+                    li{
+                        margin: 0 5px;
+                    }
+                }
+            }
+       } 
+    }
+}

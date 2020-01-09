@@ -37,7 +37,8 @@ const AproposPage = () => {
                         <div className="container">   
                             <SEO title="A Propos de Notre Agence" />
                             <div className="enseigne">
-                                <img src="/images/confiance-agsimmo-c.jpg" alt="Confiance Ags Immo" />
+                                <img src="/images/plaque.jpg" alt="Confiance Ags Immo" />
+                                {/* <img src="/images/confiance-agsimmo-c.jpg" alt="Confiance Ags Immo" /> */}
                             </div>
                           <div className="ap-wrapper">   
                             <div className="apropos-body apb apb-left">
@@ -50,7 +51,7 @@ const AproposPage = () => {
                                     <p>AGS Immo avec une expérience de plus de <strong> 20 ans </strong> dans l'immobilier au Sénégal et à l'Internationnal, est une agence immobilière basée à Dakar.</p>
                                     <p>Notre agence est constitue de professionnels de l'immobilier avec des compétences diverses. Ainsi nous intervenons avec efficacité dans tous les domaines de l'immobilier. </p>
                                     
-                                    <p>Nous assistons os clients durant tout le processus de réalisation d'un projet immobilier:</p>
+                                    <p>Nous assistons nos clients durant tout le processus de réalisation d'un projet immobilier:</p>
                                     <ul className="ap-nosservices" >
                                     {
                                       nosservices.map((n, i) => <li key={"services-ap" + i}> { n.nom } { nosservices.length !== ( i + 1) ? ";" : "..." } </li>)
