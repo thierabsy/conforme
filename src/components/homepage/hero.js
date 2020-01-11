@@ -82,7 +82,7 @@ const Hero = () => {
                                         <h3>Conseil et Gestion Immobilière</h3>
                                         <p>Bénéficier d'opportuninés uniques dans l'achat, la vente, la gérance, location et tous vos besoins dans l'immobilier.</p>
                                         <div className="btn-contact">
-                                            <button onClick={ () => toggler("showContact")}><Link to="/contact"><FaEnvelopeOpenText /> Nous Contacter</Link></button>
+                                            <button ><Link to="/contact"><FaEnvelopeOpenText /> Nous Contacter</Link></button>
                                         </div>
                                     </div>
                                     <div className="btn-contact btn-mobile">
