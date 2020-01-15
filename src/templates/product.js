@@ -1,19 +1,12 @@
 import React from "react"
 import Slide from 'react-reveal/Slide';
-// import { Link, graphql } from "gatsby"
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa"
-// import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-// import Hero from "../components/homepage/hero";
 import "../styles/catalog.scss"
 import MainContext from "../context-api/MainContext";
-// import { toXOF } from "../context-api/functions/utils";
 import { nosservices, contacts } from "../data";
 import ProdModal from "../widgets/ProdModal";
-// import Whatsapp from "../widgets/Whatsapp";
-// import Slogan from "../components/Slogan";
 
 const ProductsPage = () => {
     return( 

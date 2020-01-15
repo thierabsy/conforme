@@ -36,6 +36,7 @@ const Footer = () => {
                 <li> <Link color="white" to="/">Accueil </Link></li>
                 <li> <Link color="white" to="/apropos-ags-immo">A Propos </Link></li>
                 <li> <Link to="/nos-services"> Nos Services </Link></li>
+                <li> <Link to="/galerie"> Galerie </Link></li>
                 {/* <li> <Link to="/recettes"> Recettes </Link></li> */}
                 <li> <Link to="/contact"> Contact </Link></li>
                 {/* <li onClick={() => toggler("showContact")} > <Link to="#"> Contact </Link></li> */}

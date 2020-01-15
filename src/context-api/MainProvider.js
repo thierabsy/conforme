@@ -24,7 +24,8 @@ class MainProvider extends React.Component {
     showTopbar: isMobile || false,
     isMobile: isMobile,
     modalType: "",
-    
+    modalGalerieImages: [], 
+    activeGalerieImage: "",
     cursorPos: {
       X: 0,
       Y: 0

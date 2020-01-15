@@ -107,8 +107,11 @@ header{
     align-items: center;
     @media only screen and (max-width: 512px) {
         ul{
+            flex-wrap: wrap;
+            justify-content: flex-end;
             li{
                 font-size: 15px !important;
+                margin-bottom: 5px;
                 a{
                     font-size: 15px !important;
                 }
@@ -117,6 +120,7 @@ header{
                 }
                 &.contact{
                     padding: 0 5px !important;
+                    margin-top: 10px;
                 }
             }
         }
@@ -579,6 +583,19 @@ footer{
     }
 }
 
+.hp-apropos{
+    .slogan-modal{
+        .hp-video{
+            display: none;
+        }
+        &.showModal{
+            .hp-video{
+                display: block;
+            }
+        }
+    }
+}
+
 .slogan-modal{
     position: fixed;
     top: 0;
@@ -597,13 +614,61 @@ footer{
         opacity: 1;
         transform: scale(1) !important;
         transition: all 0.3s;
-        z-index: 100;
+        z-index: 1000;
     }
-    .slogan-close{
-
+    .close-modal{
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        cursor: pointer;
+        z-index: 1;
     }
     img{
 
+    }
+
+    .galerie-wrapper{
+        display: grid;
+        grid-template-rows: 1fr 70px;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        z-index: 2;
+        .galerie-active-img{
+            max-width: 80vw;
+            margin: 0 auto;
+            padding: 10px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2;
+            img{
+                max-height: 100%;
+            }
+        }
+        .galerie-thumbs{
+            position: relative;
+            z-index: 2;
+            ul{
+                display: flex;
+                justify-content: center;
+                max-width: 400px;
+                margin: 0 auto;
+                background: #a5150b;
+                padding: 5px 0;
+                li{
+                    margin: 0 5px;
+                    img{
+                        width: 45px;
+                        height: 45px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
     }
 }
 .slogan{

@@ -44,6 +44,7 @@ const Header = ({ active="" }) => (
                     <li className={ `${active === "accueil" ? "active" : ""}` }> <Link color="white" to="/">Accueil </Link></li>
                     <li className={ `navProd ${active === "apropos" ? "active" : ""}`}> <Link to="/apropos-ags-immo"> A Propos </Link></li>
                     <li className={ ` ${active === "nos-services" ? "active" : ""}` }> <Link color="white" to="/nos-services">Nos Services </Link></li>
+                    <li className={ `navProd ${active === "galerie" ? "active" : ""}`}> <Link to="/galerie"> Galerie </Link></li>
                     <li className={`contact ${  active === "contact" ? "active" : "" }`}> <Link color="white" to="/contact">Contact </Link>  </li>
                   </ul>
                 </div>

@@ -6,6 +6,7 @@ import Hero from "../components/homepage/hero";
 import HpNosServices from "../components/homepage/HpNosServices";
 import HpApropos from "../components/homepage/HpApropos";
 import HpLocalites from "../components/homepage/HpLocalites";
+import HpGalerie from "../components/homepage/HpGalerie";
 import "../styles/homepage.scss";
 
 const IndexPage = () => {
@@ -16,6 +17,7 @@ const IndexPage = () => {
     <HpNosServices />
     <HpApropos />
     <HpLocalites />
+    <HpGalerie />
   </Layout>
 )}
 

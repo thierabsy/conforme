@@ -333,7 +333,7 @@
     .hpa-title{
         font-size: 2em;
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         span{
             position: relative;
             padding: 5px;
@@ -345,6 +345,59 @@
                 width: 200px;
                 background: black;
                 left: calc(50% - 100px);
+            }
+        }
+    }
+    .hpa-title-text{
+        max-width: 650px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .hpa-img{
+        .hpa-img-wrapper{
+            width: 50px;
+            height: 50px;
+            margin: 0 auto;
+            border: 2px solid #c90333;
+            padding: 10px;
+            box-sizing: content-box;
+            border-radius: 50%;
+            background: transparent;
+            transition: all 0.3s;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            &:before{
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: 0;
+                width: 0;
+                background: #c90333;
+                border-radius: 50%;
+                transition: all 0.3s;
+            }
+            &:hover{
+                &:before{
+                    width: 110%;
+                    height: 110%;
+                    // transform: rotate(360deg);
+                    transition: all 0.3s;
+                }
+                img{
+                    transform: scale(1.1);
+                    transition: all 0.3s;
+                }
+            }
+            img{
+                width: 100%;
+                height: 100%;
+                position: relative;
+                transition: all 0.3s;
+                z-index: 2;
             }
         }
     }
@@ -363,6 +416,10 @@
             margin: 5px;
             .hps-wrapper{
                 padding: 5px;
+                &:hover{
+                    background: rgba(236, 84, 91, 0.36);
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                }
                 img{
                     width: 70px;
                     height: 70px;
@@ -661,6 +718,114 @@
                     right: 0;
                     background: $yellow1;
                 }
+            }
+        }
+    }
+}
+
+.hp-galerie{
+    padding: 60px 0;
+    background: url("/images/patterns/wall7.jpg");
+    background-attachment: fixed;
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(93, 90, 90, 0.42);
+        z-index: 1;
+    }
+    .container{
+        position: relative;
+        z-index: 2;
+    }
+    .hpb-header{
+        text-align: center;
+        color: $red;
+        h3{
+            margin-bottom: 35px;
+            text-shadow: 1px 1px white;
+            letter-spacing: 1px;
+            span{
+                position: relative;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    bottom: -5px;
+                    left: 0;
+                    height: 5px;
+                    width: 100%;
+                    background: white;
+                }
+            }
+        }
+    }
+    .hpb-items{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 40px;
+        margin-top: 20px;
+        margin-bottom: 35px;
+        .hpg-slide{
+            .hps-wrapper{
+                position: relative;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.47);
+                .hps-img{
+                    position: relative;
+                    height: 265px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .open-galerie{
+                        position: absolute;
+                        top: 5px;
+                        right: 5px;
+                        font-size: 15px;
+                        background: rgba(167, 9, 9, 0.65);
+                        padding: 0 5px;
+                        border-radius: 5px;
+                        color: gainsboro;
+                        cursor: pointer;
+                    }
+                }
+                .hps-inner{
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    padding: 10px;
+                    padding-top: 30px;
+                    background: linear-gradient(to top, #8c0d12, transparent);
+                    color: gainsboro;
+                    h3{
+                        font-size: 16px;
+                        margin: 5px;
+                    }
+                    p{
+                        margin: 0;
+                        line-height: 120%;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .hpb-voirplus{
+        text-align: center;
+        button {
+            border: none;
+            background: $red;
+            border-radius: 5px;
+            a{
+                display: block;
+                color: white;
+                padding: 3px 10px;
             }
         }
     }
