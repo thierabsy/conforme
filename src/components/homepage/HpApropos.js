@@ -14,11 +14,9 @@ const HpApropos = () => {
             <div className="hpa hpa-right">
                 <h2>Conforme</h2>
                 <h3>Consulting</h3>
-                <p>
-                    Conforme Consulting est un cabinet de conseils, de formation, 
-                    de management et d'études qui aide les organismes à mieux élaborer leur stratégie.
-                </p>
-                <p> Notre équipe d'experts natiaux et internationaux vous aide à mettre en place... </p>
+                <p>Le Cabinet CONFORME - Consulting « Conseil – Formation -Management – Etudes », est un cabinet 
+                    de consultance internationale, spécialisé dans les domaines du – Conseil stratégique & Développement 
+                    Organisationnel, - Gestion de Projets & Programmes de Développement – et Gestion des Risques & Portefeuilles... </p>
                 <button className="btn"> <Link to="/presentation">En savoir plus</Link> </button>
                 <span className="sb span-after">Conseils stratégiques</span>
             </div>

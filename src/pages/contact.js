@@ -8,9 +8,11 @@ import MainContext from "../context-api/MainContext";
 import Modal from "../components/Modal";
 import PageHeader from "../components/PageHeader";
 
+import { contacts } from "../data/contact";
+
 const Experts = () => {
   const context = useContext(MainContext);
-  const { state: { modalType, contacts } } = context;
+  const { state: { modalType } } = context;
   return(
       <Layout active="contact">
           <SEO title="Contact" />
