@@ -1,9 +1,7 @@
 import React, { useContext } from "react";
-import MainContext from "../../context-api/MainContext";
+import { references } from "../../data/references";
 
 const HpReferences = () => {
-    const context = useContext(MainContext);
-    const { state: { references }} = context;
     return ( 
         <div className="hp-references">
             <div className="container">

@@ -10,10 +10,11 @@ import Modal from "../components/Modal";
 // import HpTeam from "../components/homepage/HpTeam";
 import PageHeader from "../components/PageHeader";
 import { Link } from "gatsby";
+import { expertises } from "../data/expertise";
 
 const Expertise = () => {
   const context = useContext(MainContext);
-  const { state: { modalType, expertises }, stateAttribute } = context;
+  const { state: { modalType } } = context;
   return(
       <Layout active="notre-expertise">
           <SEO title="Notre Expertise" />

@@ -8,11 +8,12 @@ import MainContext from "../context-api/MainContext";
 import Modal from "../components/Modal";
 import PageHeader from "../components/PageHeader";
 import { Link } from "gatsby";
+import { team } from "../data/team";
 
 const Experts = () => {
   const [tab, setTab] = useState(null)
   const context = useContext(MainContext);
-  const { state: { modalType, team } } = context;
+  const { state: { modalType } } = context;
   return(
       <Layout active="nos-experts">
           <SEO title="Nos Experts" />

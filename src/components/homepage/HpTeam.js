@@ -1,11 +1,8 @@
 import React, { useContext } from "react";
-import Slide from 'react-reveal/Slide';
 import { Link } from "gatsby";
-import MainContext from "../../context-api/MainContext";
+import { team } from "../../data/team";
 
 const HpTeam = () => {
-    const context = useContext(MainContext);
-    const { state: { team }} = context;
     return ( 
         <div className="hp-team">
             <div className="container">
