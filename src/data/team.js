@@ -33,7 +33,7 @@ export const team =  [
          "Financement de projets dans les secteurs public et privé: investissement en fonds propres et en dette, financement souverain et non souverain, formalisation juridique. Analyse de projets et de financements d'entreprises dans divers secteurs, y compris les infrastructures (énergie et télécommunications), les financements et la banque (y compris la microfiance), les petites et moyennes entreprises.",
          "Il est titulaire d'un Bachelor of Business de l'ISM Dakar (Sénégal), d'un Master of Finance (IGEFI_France), d'un certificat de Finance Internationale et d'un MBA avec une double majeure en Fusions & Acquisitions & Marchés des Capitaux de l'ESLSCA School of Business de Paris (France) , docteur en gestion stratégique de projets, programmes et portefeuilles de l'ESKEMA Business School Lille (France)."
       ],
-      avatar_s: "pr_hamdouraby_sy.jpg",
-      avatar_m: "pr_hamdouraby_sy.jpg"
+      avatar_s: "simon_badianne.jpg",
+      avatar_m: "simon_badianne.jpg"
    },
 ]

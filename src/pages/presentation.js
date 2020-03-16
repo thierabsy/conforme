@@ -74,6 +74,7 @@ const Presentation = () => {
                 <div className="ap-header">
                   <h2>CONFORME Consulting</h2>
                   <p>Conseil - Formation - Management - Etudes</p>
+                  <div className="exp-separator" />
                 </div>
                 <div className="ap-text">
                   <p>

@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import { FaEnvelope, FaMobile, FaFacebookF, FaLinkedinIn } from "react-icons/fa"
 import { MdClose, MdMenu } from "react-icons/md"
+import Fade from 'react-reveal/Fade';
 
 import { contacts } from "../data/contact" 
 // import Social from "../widgets/socials";
@@ -98,8 +99,10 @@ const Header = ({ active="" }) => {
             <div className="navbar-accueil">
               <div className="bottomBar">
               <div className="navbar-accueil-logo">
-                <img src="/logo.jpg" alt="Logo" />
-                <p>Conseil - Formation - Management - Etudes</p>
+                <Fade bottom>
+                  <img src="/logo.jpg" alt="Logo" />
+                  <p>Conseil - Formation - Management - Etudes</p>
+                </Fade>
               </div>
               <div className="navbar-accueil-navigation">
                 <Navbar active={ active} toggler={ toggler } />

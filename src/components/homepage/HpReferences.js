@@ -12,10 +12,9 @@ const HpReferences = () => {
                     <div className="hpr hp-ref-right">
                         <div className="hpr-inner">
                             <div className="hpr-header">
-                                <h2>Une expertise, au service  </h2>
+                                <h2>Une méthodologie inclusive </h2>
                                 <div className="hp-separator" />
-                                <p><strong>Conforme Consulting</strong>, composé d'une équipe pluridisciplinaire et 
-                                des experts associés de haut niveau aide les organismes publiques et privés à mettre en place des processus efficaces et efficients. </p>
+                                <p><strong>Conforme Consulting</strong>, à travers des séminaires et des missions, travaille avec les organismes publiques et privés pour la mise en place de processus efficaces et efficients. </p>
                             </div>
                             <h3><span>Nos références:</span></h3>
                             <div className="hp-ref-grid">

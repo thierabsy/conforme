@@ -1,5 +1,4 @@
-import React from "react";
-import Slide from 'react-reveal/Slide';
+import React from "react"
 import { Link } from "gatsby";
 
 const HpApropos = () => {
