@@ -46,7 +46,7 @@ function SEO({ description, lang, meta, title= "" }) {
         },
         {
           name: `image`,
-          content: `https://www.agence-agsimmo.com/images/banner-agsimmo.jpg`,
+          content: `/logo.jpg`,
         },
         {
           property: `og:title`,
@@ -62,7 +62,7 @@ function SEO({ description, lang, meta, title= "" }) {
         },
         {
           property: `og:image`,
-          content: `https://www.agence-agsimmo.com/images/banner-agsimmo.jpg`,
+          content: `/logo.jpg`,
         },
         {
           name: `twitter:card`,
@@ -78,7 +78,7 @@ function SEO({ description, lang, meta, title= "" }) {
         },
         {
           name: `twitter:image`,
-          content: `https://www.agence-agsimmo.com/images/banner-agsimmo.jpg`,
+          content: `/logo.jpg`,
         },
         {
           name: `twitter:description`,
