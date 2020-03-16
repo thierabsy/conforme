@@ -11,7 +11,7 @@ const Contact = () => {
     <div className="contact-form-2">
       <div className="container">
         <div className="cfc-header">
-          <img src={`/images/contact.jpg`} alt="Conatct AGS Immo" />
+          <img src={`/images/contact.jpg`} alt="Contact Conforme Ctg" />
         </div>
         <div className="cf-content">
           <div className="cfc-text"> Nous Contacter </div>

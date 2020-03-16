@@ -13,9 +13,7 @@ const Layout = ({ children, active="" }) => {
   const { state: { showContact } } = context;
   return(
     <>
-      {
-        showContact && <Contact />
-      }
+      { showContact && <Contact /> }
       <Header  active={ active } />
       <main>{children}</main>
       <Footer />

@@ -4,28 +4,26 @@ import { Link } from "gatsby";
 
 const HpApropos = () => {
     return ( 
-        <div className="hp-apropos-2col">
+        <div className="hp-apropos-conforme">
+        <div className="container">
+        <div className="hp-apropos-inner">
             <div className="hpa hpa-left">
-                <img src="/images/immo.jpg" alt="AGS Immo" />
+                <span className="sb span-before" />
+                <img src="/images/comite_startegique.jpg" alt="Conforme Consulting" />
             </div>
             <div className="hpa hpa-right">
-                <div className="hpa-inner">
-                    <Slide bottom>
-                        <h3><span>A propos d'AGS Immo</span></h3>
-                    </Slide>
-                    <Slide bottom>
-                        <p>
-                            Notre agence <strong>AGS Immo</strong> avec une expérience de plus de 20 ans dans le <strong>marché immoblier sénégalais</strong> 
-                            vous aide et facilite dans vos achats, ventes, gestion et réalisation de vos projets immobiliers.
-                        </p>
-                    </Slide>
-                    <Slide bottom>
-                        <Link to="/apropos-ags-immo">
-                            <button>En savoir plus ...</button>
-                        </Link>
-                    </Slide>
-                </div>
+                <h2>Conforme</h2>
+                <h3>Consulting</h3>
+                <p>
+                    Conforme Consulting est un cabinet de conseils, de formation, 
+                    de management et d'études qui aide les organismes à mieux élaborer leur stratégie.
+                </p>
+                <p> Notre équipe d'experts natiaux et internationaux vous aide à mettre en place... </p>
+                <button className="btn"> <Link to="/presentation">En savoir plus</Link> </button>
+                <span className="sb span-after">Conseils stratégiques</span>
             </div>
+        </div>
+        </div>
         </div>
     )
 }

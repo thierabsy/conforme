@@ -2,6 +2,7 @@ import React from "react"
 import MainContext from "./MainContext"
 import { toggleClass, toggler, stateAttribute } from "./functions/layout_func"
 import { toXOF } from "./functions/utils"
+import { team, references, expertises, contacts } from "../data"
 
 
 // Getting dark mode information from OS!
@@ -20,10 +21,15 @@ class MainProvider extends React.Component {
     showMore: false,
     showContact: false,
     showModal: false,
+    showNav: false,
     showSlogan: false,
     showTopbar: isMobile || false,
     isMobile: isMobile,
     modalType: "",
+    team: team || [], 
+    contacts: contacts || {}, 
+    references: references || [], 
+    expertises: expertises || [], 
     modalGalerieImages: [], 
     activeGalerieImage: "",
     cursorPos: {

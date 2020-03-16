@@ -4,3 +4,6 @@ export { nosproduits } from "./nosproduits";
 export { bienfaits } from "./bienfaits";
 export { localites } from "./localites";
 export { nosservices } from "./nosservices";
+export { team } from "./team";
+export { references } from "./references";
+export { expertises } from "./expertise";

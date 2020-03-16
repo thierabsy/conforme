@@ -5,8 +5,9 @@ import SEO from "../components/seo"
 import Hero from "../components/homepage/hero";
 import HpNosServices from "../components/homepage/HpNosServices";
 import HpApropos from "../components/homepage/HpApropos";
-import HpLocalites from "../components/homepage/HpLocalites";
-import HpGalerie from "../components/homepage/HpGalerie";
+import HpBand from "../components/homepage/HpBand";
+import HpTeam from "../components/homepage/HpTeam";
+import HpReferences from "../components/homepage/HpReferences";
 import "../styles/homepage.scss";
 
 const IndexPage = () => {
@@ -16,8 +17,9 @@ const IndexPage = () => {
     <Hero />    
     <HpNosServices />
     <HpApropos />
-    <HpLocalites />
-    <HpGalerie />
+    <HpBand />
+    <HpTeam />
+    <HpReferences />
   </Layout>
 )}
 

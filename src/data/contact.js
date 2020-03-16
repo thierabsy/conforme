@@ -3,19 +3,22 @@ import { FaFacebookF, FaWhatsapp } from "react-icons/fa"
 // import { FaFacebookF, FaTwitter, FaInstagram, FaWhatsapp, FaYoutube} from "react-icons/fa"
 
 export const contacts = {
-    tel: "338957261",
-    tel2: "778096121",
-    tel3: "762876321",
-    whatsapp: "778096121",
-    email: "agsimmo@hotmail.fr",
-    adress: "Aïnoumady, Keur Massar",
+    tel: "00221338642964",
+    tel_label: "(+221) 33 864 29 64",
+    tel2: "00221774035693",
+    tel2_label: "(+221) 77 403 56 93",
+    tel3: "771111111",
+    whatsapp: "771111111",
+    email: "info@conforme.sn",
+    adress: "Villa N°02 Ouest Foire, Dakar",
     adress_suite: "Dakar-SENEGAL",
+    bp: "64684 Dakar Fann, Senegal",
     socials: [
         {
             name: "facebook",
             icon: <FaFacebookF />,
             color: "#3b5998",
-            link: "https://web.facebook.com/AGS-IMMO-112062300320646/",
+            link: "https://web.facebook.com",
         },
         // {
         //     name: "twitter",

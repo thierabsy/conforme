@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `AGS Immo`,
-    description: `Agence immobilière basée à Dakar.`,
-    author: `@agsimmo`,
+    title: `Conforme`,
+    description: `Cabinet de consultance.`,
+    author: `@conforme_consulting`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,13 +33,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `AGS Immobilier`,
-        short_name: `AGS Immo`,
+        name: `Conforme Consulting`,
+        short_name: `Conforme C.`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#ed1b24`,
+        theme_color: `#2A92D1`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`, 
+        icon: `src/images/icons/icon-64x64.png`, 
         icons: [
           {
             src: `/icons/icon-72x72.png`,
@@ -56,21 +56,21 @@ module.exports = {
             sizes: `128x128`,
             type: `image/png`,
           },
-          {
-            src: `/icons/icon-144x144.png`,
-            sizes: `144x144`,
-            type: `image/png`,
-          },
-          {
-            src: `/icons/icon-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/icons/icon-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
+          // {
+          //   src: `/icons/icon-144x144.png`,
+          //   sizes: `144x144`,
+          //   type: `image/png`,
+          // },
+          // {
+          //   src: `/icons/icon-192x192.png`,
+          //   sizes: `192x192`,
+          //   type: `image/png`,
+          // },
+          // {
+          //   src: `/icons/icon-512x512.png`,
+          //   sizes: `512x512`,
+          //   type: `image/png`,
+          // },
         ],
       },
     },
