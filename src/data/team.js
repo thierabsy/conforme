@@ -3,7 +3,7 @@ export const team =  [
       id: 1,
       nom: "Pr Hamdouraby SY",
       titre: "Expert en Finance et Gestion des Risques",
-      fonction: "Directeur administratif",
+      fonction: "Directeur associé",
       description: [
          "Financement de projets dans les secteurs public et privé: investissement en fonds propres et en dette, financement souverain et non souverain, formalisation juridique. Analyse de projets et de financements d'entreprises dans divers secteurs, y compris les infrastructures (énergie et télécommunications), les financements et la banque (y compris la microfiance), les petites et moyennes entreprises.",
          "Il est titulaire d'un Bachelor of Business de l'ISM Dakar (Sénégal), d'un Master of Finance (IGEFI_France), d'un certificat de Finance Internationale et d'un MBA avec une double majeure en Fusions & Acquisitions & Marchés des Capitaux de l'ESLSCA School of Business de Paris (France) , docteur en gestion stratégique de projets, programmes et portefeuilles de l'ESKEMA Business School Lille (France)."
@@ -27,12 +27,13 @@ export const team =  [
    {
       id: 3,
       nom: "M. Simon Lazarre BADIANE",
-      titre: "Expert en Finance et Gestion des Risques",
-      fonction: "Directeur administratif",
+      titre: " Consultant Senior, Evaluateur, Formateur & Facilitateur international",
+      fonction: "Directeur associé",
       description: [
-         "Financement de projets dans les secteurs public et privé: investissement en fonds propres et en dette, financement souverain et non souverain, formalisation juridique. Analyse de projets et de financements d'entreprises dans divers secteurs, y compris les infrastructures (énergie et télécommunications), les financements et la banque (y compris la microfiance), les petites et moyennes entreprises.",
-         "Il est titulaire d'un Bachelor of Business de l'ISM Dakar (Sénégal), d'un Master of Finance (IGEFI_France), d'un certificat de Finance Internationale et d'un MBA avec une double majeure en Fusions & Acquisitions & Marchés des Capitaux de l'ESLSCA School of Business de Paris (France) , docteur en gestion stratégique de projets, programmes et portefeuilles de l'ESKEMA Business School Lille (France)."
-      ],
+         "Monsieur Simon Lazarre BADIANE intervient les domaines suivants: Audit/Développement Organisationnel et Gestion des Ressources Humaines, Suivi-Evaluation de Projets, Management de Projets, Programmes et Portefeuilles, Planification Stratégique et Développement Durable, Leadership, Développement Personnel, Coaching, Prévention, Gestion et Résolution de Conflits",
+         "Il était Secrétaire Exécutif Chargé du Leadership et du Développement Organisationnel de l’Alliance Africaine des YMCAs de Juillet 2007 à Mai 2013 à Nairobi au Kenya, Directeur Diocésain Intérimaire de la Caritas Dakar (Sénégal), Secrétaire Général National /CEO de l’ONG YMCA Sénégal– Mai 1996 à Juin 2007.",
+         "Actuellement, il est Directeur Exécutif de l’ONG Africa Consultants International (ACI) et Professeur en Management Stratégique, GHR et Gestion de Projets, au «Centre for Advanced  Studies and  Research   in Project, Prgramme and  Portfolio   Management(CASR3PM)."
+         ],
       avatar_s: "simon_badianne.jpg",
       avatar_m: "simon_badianne.jpg"
    },
