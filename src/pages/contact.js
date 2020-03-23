@@ -1,29 +1,18 @@
-import React, { useContext, useState } from "react"
+import React from "react"
 import { FaFacebookF, FaLinkedinIn} from "react-icons/fa"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import "../styles/emploi.scss"
-import MainContext from "../context-api/MainContext";
-import Modal from "../components/Modal";
 import PageHeader from "../components/PageHeader";
 
 import { contacts } from "../data/contact";
 
 const Experts = () => {
-  const context = useContext(MainContext);
-  const { state: { modalType } } = context;
   return(
       <Layout active="contact">
           <SEO title="Contact" />
-          {
-            modalType !== "" &&
-            <Modal type="apropos-aside">
-              <img src="/images/enseigne.jpg" alt="Enseigne Ags Immo" />
-            </Modal>
-          }
           <div className="mainwrapper contact-page">
-            <PageHeader img="/images/footer_bg.jpg" page="Notre Expertise" >
+            <PageHeader img="/images/contact_us.jpg" page="Contact">
               <h1>Contact</h1>
             </PageHeader>
           <div className="container">   
@@ -42,8 +31,10 @@ const Experts = () => {
                   <h4><span>Contact</span></h4>
                   <ul>
                       <li><span> Addresse:</span> { contacts.adress } </li>
-                      <li><span> Tel:</span> <a href={`tel:${ contacts.tel.replace(" ", "") }`}> { contacts.tel_label }</a> </li>
+                      <li><span> BP:</span> { contacts.bp } </li>
                       <li><span> Email:</span> <a color="white" href={`mailto:${ contacts.email }`}>{ contacts.email }</a> </li>
+                      <li><span> Fixe:</span> <a href={`tel:${ contacts.tel }`}> { contacts.tel_label }</a> </li>
+                      <li><span> Mobile:</span> <a href={`tel:${ contacts.tel2 }`}> { contacts.tel2_label }</a> </li>
                   </ul>
                 </div>
                 <div className="ft-socials">

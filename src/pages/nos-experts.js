@@ -17,12 +17,6 @@ const Experts = () => {
   return(
       <Layout active="nos-experts">
           <SEO title="Nos Experts" />
-          {
-            modalType !== "" &&
-            <Modal type="apropos-aside">
-              <img src="/images/enseigne.jpg" alt="Enseigne Ags Immo" />
-            </Modal>
-          }
           <div className="mainwrapper experts-page">
             <PageHeader img="/images/footer_bg.jpg" page="Notre Expertise" >
               <h1>Nos Experts</h1>

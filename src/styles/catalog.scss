@@ -424,6 +424,31 @@
         }
     }
 }
+.domaines-page{
+    .ap-wrapper {
+        min-height: 90vh;
+    }
+    .dom-header{
+        padding: 15px 10px;
+        color: $col1;
+        font-weight: bold;
+    }
+
+    ul{
+        padding-left: 25px;
+        li{
+            display: flex;
+            // align-items: center;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+            img{
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+            }
+        }
+    }
+}
 .exp-separator{
     width: 200px;
     height: 5px;
@@ -691,12 +716,12 @@
             }
         }
         .ct-left-img{
-            background: url("/images/patterns/trait.png");
+            background: $col2 url("/images/patterns/trait.png");
             padding: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.21);
-            // img{
- 
-            // }
+            img{
+                opacity: 0;
+            }
         }
         .ct-text{
             max-width: 372px;
@@ -722,9 +747,6 @@
                     }
                 }
                 
-            }
-            .ft-contact{
-
             }
         }
     }

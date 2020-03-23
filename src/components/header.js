@@ -30,8 +30,11 @@ const Navbar = ({active , toggler}) => {
               <Link to="/presentation" onClick={() => toggler("showNav")}> Valeurs </Link>
             </div>
           </li>
+          <li className={ ` ${active === "domaines-intervention" ? "active" : ""}` }> 
+            <Link color="white" to="/domaines-intervention" onClick={() => toggler("showNav")}>Domaines</Link>
+          </li>
           <li className={ ` ${active === "notre-expertise" ? "active" : ""}` }> 
-            <Link color="white" to="/notre-expertise" onClick={() => toggler("showNav")}>Notre expertise</Link>
+            <Link color="white" to="/notre-expertise" onClick={() => toggler("showNav")}>Expertise</Link>
           </li>
           <li className={ `navProd ${active === "nos-experts" ? "active" : ""}`}> <span className="hsub-title">Nos experts</span>
             <div className="subnav">
