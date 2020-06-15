@@ -5,7 +5,7 @@ const HpBand = () => {
     return ( 
         <div className="HpBand">
         <div className="container">
-           <span> Besoin de plus d'informations </span> <button className="btn"> <Link to="/presentation">Nous contacter</Link> </button>
+           <span> Besoin de plus d'informations </span> <button className="btn"> <Link to="/contact">Nous contacter</Link> </button>
         </div>
         </div>
     )

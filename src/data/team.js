@@ -30,7 +30,7 @@ export const team =  [
       titre: " Consultant Senior, Evaluateur, Formateur & Facilitateur international",
       fonction: "Directeur associé",
       description: [
-         "Monsieur Simon Lazarre BADIANE intervient les domaines suivants: Audit/Développement Organisationnel et Gestion des Ressources Humaines, Suivi-Evaluation de Projets, Management de Projets, Programmes et Portefeuilles, Planification Stratégique et Développement Durable, Leadership, Développement Personnel, Coaching, Prévention, Gestion et Résolution de Conflits",
+         "Monsieur Simon Lazarre BADIANE intervient dans les domaines suivants: Audit/Développement Organisationnel et Gestion des Ressources Humaines, Suivi-Evaluation de Projets, Management de Projets, Programmes et Portefeuilles, Planification Stratégique et Développement Durable, Leadership, Développement Personnel, Coaching, Prévention, Gestion et Résolution de Conflits",
          "Il était Secrétaire Exécutif Chargé du Leadership et du Développement Organisationnel de l’Alliance Africaine des YMCAs de Juillet 2007 à Mai 2013 à Nairobi au Kenya, Directeur Diocésain Intérimaire de la Caritas Dakar (Sénégal), Secrétaire Général National /CEO de l’ONG YMCA Sénégal– Mai 1996 à Juin 2007.",
          "Actuellement, il est Directeur Exécutif de l’ONG Africa Consultants International (ACI) et Professeur en Management Stratégique, GHR et Gestion de Projets, au «Centre for Advanced  Studies and  Research   in Project, Prgramme and  Portfolio   Management(CASR3PM)."
          ],
