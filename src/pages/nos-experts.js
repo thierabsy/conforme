@@ -18,17 +18,17 @@ const Experts = () => {
       <Layout active="nos-experts">
           <SEO title="Nos Experts" />
           <div className="mainwrapper experts-page">
-            <PageHeader img="/images/footer_bg.jpg" page="Notre Expertise" >
+            {/* <PageHeader img="/images/footer_bg.jpg" page="Notre Expertise" >
               <h1>Nos Experts</h1>
-            </PageHeader>
+            </PageHeader> */}
           <div className="container">   
             <div className="ap-wrapper">   
               <div className="apropos-body apb apb-left">
-              <div className="ap-header-img">
+              {/* <div className="ap-header-img">
                 <img src={`/images/global.jpg`} alt="" /> 
-              </div>
+              </div> */}
               <div className="ap-header-intro">
-                <p>Une équipe pluridisciplinaire avec une expérience internationale.</p>
+                <h2>Equipe de Direction</h2>
               </div>
                 <div className="ap-expertises">
                   {

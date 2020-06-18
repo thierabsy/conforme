@@ -5,84 +5,50 @@
     min-height: 65vh; 
     // border-bottom: 5px solid $green1;
     // border-bottom: 5px solid #447428;
+    background: url("/images/map.png");
     position: relative;
+    background: aliceblue;
+    padding: 82px 0;
     @media only screen and (max-width: 728px) {
         min-height: 50vh !important; 
-        img{
-            height: 50vh !important; 
-        }
     }
-    img{
-        width: 100%; 
-        height: 65vh; 
-        max-width: 100vw; 
-        margin-bottom: -7px;
-    }
-    .hero-slider {
+    position: relative;
+    .container{
         position: relative;
     }
-    .heroInner{
+    .hero-slider-list{
         position: absolute;
         left: 0;
         top: 0;
         width: 100%;
         height: 100%;
-        .container{
-            height: 100%;
-            position: relative;
-        }
-        .heroText{
-            width: 305px;
-            // height: 100%;
-            // background: rgba(68, 116, 40, 0.9);
-            margin: 0 0 0 auto;
-            box-shadow: -2px 0 10px rgba(0, 0, 0, 0.61), 2px 0 10px rgba(0, 0, 0, 0.61);
-            color: white;
+    }
+    .hero-slider{
+        // width: 33.33333%;
+        height: 65vh;
+        position: relative;
+    }
+    
+    .hero-slider-wrapper{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        .hero-slider-list{
             display: flex;
-            flex-direction: column;
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.52);
-            position: absolute;
-            right: 0;
+            width: 300%;
             height: 100%;
-            @media only screen and (max-width: 512px) {
-                margin: 0 auto;
-            }
-            h3{
-                margin-top: 20px;
-            }
-            // button{
-            //     background: $yellow1;
-            //     border: none;
-            //     border-radius: 5px;
-            //     color: white;
-            //     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-            //     font-weight: bold;
-            //     cursor: pointer;
-            // }
-            &.ht-qualite{
-                top: 50%;
-                right: 0;
-                transform: translateY(-50%);
-                text-align: right;
-            }
-            &.ht-bienfaits{
-                bottom: 50px;
-                left: 50%;
-                transform: translateX(-50%);
-                text-align: center;
-            }
-            &.ht-recettes{
-                top: 50%;
-                right: 0;
-                transform: translateY(-50%);
-                text-align: right;
-            }
+            animation: animSlider 13s infinite 0s;
+        }
+        .hero-slider{
+            width: 33.33333%;
+            height: 100%;
         }
     }
     .hero-title {
         position: absolute;
-        bottom: 15%;
+        bottom: 45%;
         width: 100%;
         .ht-inner{
             // display: flex;
@@ -108,38 +74,176 @@
             p{
                 margin-bottom: 0;
             }
-            // span{
-            //     padding: 30px 15px;
-            //     background: rgba(255, 255, 255, 0.76);
-            //     position: relative;
-            //     display: block;
-            //     font-size: 20px;
-            //     &:before {
-            //         content: "";
-            //         height: 50%;
-            //         width: 50%;
-            //         display: block;
-            //         position: absolute;
-            //         top: -15px;
-            //         left: -15px;
-            //         border-top: 10px solid $red;
-            //         border-left: 10px solid $red;
-            //     }
-            //     &:after {
-            //         content: "";
-            //         height: 50%;
-            //         width: 50%;
-            //         display: block;
-            //         position: absolute;
-            //         right: -15px;
-            //         bottom: -15px;
-            //         border-bottom: 10px solid $blue;
-            //         border-right: 10px solid $blue;
-            //     }
-            // }
         }
     }
 }
+// @keyframes animSlider {
+//     0%{
+//         transform: translateX(0);
+//     }
+//     30%{
+//         transform: translateX(0);
+//     }
+//     33%{
+//         transform: translateX(-33.3333%);
+//     }
+//     63%{
+//         transform: translateX(-33.3333%);
+//     }
+//     66%{
+//         transform: translateX(-66.6666%);
+//     }
+//     100%{
+//         transform: translateX(-66.6666%);
+//     }
+//     // 100%{
+//     //     transform: translateX(0);
+//     // }
+// }
+
+// .hero{
+//     width: 100%;
+//     min-height: 65vh; 
+//     // border-bottom: 5px solid $green1;
+//     // border-bottom: 5px solid #447428;
+//     background: url("/images/map.png");
+//     position: relative;
+//     background: aliceblue;
+//     padding: 82px 0;
+//     @media only screen and (max-width: 728px) {
+//         min-height: 50vh !important; 
+//         img{
+//             height: 50vh !important; 
+//         }
+//     }
+//     img{
+//         width: 100%; 
+//         height: 65vh; 
+//         max-width: 100vw; 
+//         margin-bottom: -7px;
+//     }
+//     .hero-slider {
+//         position: relative;
+//     }
+//     .heroInner{
+//         position: absolute;
+//         left: 0;
+//         top: 0;
+//         width: 100%;
+//         height: 100%;
+//         .container{
+//             height: 100%;
+//             position: relative;
+//         }
+//         .heroText{
+//             width: 305px;
+//             // height: 100%;
+//             // background: rgba(68, 116, 40, 0.9);
+//             margin: 0 0 0 auto;
+//             box-shadow: -2px 0 10px rgba(0, 0, 0, 0.61), 2px 0 10px rgba(0, 0, 0, 0.61);
+//             color: white;
+//             display: flex;
+//             flex-direction: column;
+//             padding: 20px;
+//             background: rgba(0, 0, 0, 0.52);
+//             position: absolute;
+//             right: 0;
+//             height: 100%;
+//             @media only screen and (max-width: 512px) {
+//                 margin: 0 auto;
+//             }
+//             h3{
+//                 margin-top: 20px;
+//             }
+//             // button{
+//             //     background: $yellow1;
+//             //     border: none;
+//             //     border-radius: 5px;
+//             //     color: white;
+//             //     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+//             //     font-weight: bold;
+//             //     cursor: pointer;
+//             // }
+//             &.ht-qualite{
+//                 top: 50%;
+//                 right: 0;
+//                 transform: translateY(-50%);
+//                 text-align: right;
+//             }
+//             &.ht-bienfaits{
+//                 bottom: 50px;
+//                 left: 50%;
+//                 transform: translateX(-50%);
+//                 text-align: center;
+//             }
+//             &.ht-recettes{
+//                 top: 50%;
+//                 right: 0;
+//                 transform: translateY(-50%);
+//                 text-align: right;
+//             }
+//         }
+//     }
+//     .hero-title {
+//         position: absolute;
+//         bottom: 15%;
+//         width: 100%;
+//         .ht-inner{
+//             // display: flex;
+//             text-align: center;
+//             position: relative;
+//             max-width: 350px;
+//             margin: 0 auto;
+//             background: white;
+//             padding: 10px;
+//             &:before {
+//                 content: "";
+//                 position: absolute;
+//                 top: -10px;
+//                 left: -10px;
+//                 right: -10px;
+//                 bottom: -10px;
+//                 border: 5px solid #2692d0;
+//             }
+//             h3{
+//               margin-bottom: 10px;
+//               color: $col1;
+//             }
+//             p{
+//                 margin-bottom: 0;
+//             }
+//             // span{
+//             //     padding: 30px 15px;
+//             //     background: rgba(255, 255, 255, 0.76);
+//             //     position: relative;
+//             //     display: block;
+//             //     font-size: 20px;
+//             //     &:before {
+//             //         content: "";
+//             //         height: 50%;
+//             //         width: 50%;
+//             //         display: block;
+//             //         position: absolute;
+//             //         top: -15px;
+//             //         left: -15px;
+//             //         border-top: 10px solid $red;
+//             //         border-left: 10px solid $red;
+//             //     }
+//             //     &:after {
+//             //         content: "";
+//             //         height: 50%;
+//             //         width: 50%;
+//             //         display: block;
+//             //         position: absolute;
+//             //         right: -15px;
+//             //         bottom: -15px;
+//             //         border-bottom: 10px solid $blue;
+//             //         border-right: 10px solid $blue;
+//             //     }
+//             // }
+//         }
+//     }
+// }
 
 .tiens_band{
     position: relative;

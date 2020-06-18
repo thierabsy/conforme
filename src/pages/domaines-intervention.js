@@ -12,9 +12,9 @@ const Domaines = () => {
       <Layout active="domaines-intervention">
           <SEO title="Domaines d'intervention" />
           <div className="mainwrapper domaines-page">
-            <PageHeader img="/images/footer_bg.jpg" page="Domaines" >
+            {/* <PageHeader img="/images/footer_bg.jpg" page="Domaines" >
               <h1>Domaines d'intervention</h1>
-            </PageHeader>
+            </PageHeader> */}
           <div className="container">   
             <div className="ap-wrapper">   
               <div className="apropos-body apb apb-left">

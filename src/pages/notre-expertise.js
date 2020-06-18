@@ -25,9 +25,9 @@ const Expertise = () => {
             </Modal>
           }
           <div className="mainwrapper expertise-page">
-            <PageHeader img="/images/footer_bg.jpg" page="Notre Expertise" >
+            {/* <PageHeader img="/images/footer_bg.jpg" page="Notre Expertise" >
               <h1>Notre Expertise</h1>
-            </PageHeader>
+            </PageHeader> */}
           <div className="container">   
             <SEO title="Notre Expertise" />
             <div className="ap-wrapper">   
@@ -35,9 +35,9 @@ const Expertise = () => {
                 <div className="ap-expertises">
                   {
                     expertises.map((item, i) => <div  key={"expertise-item--" + i} className="exp-item">
-                    <div className="exp exp-img">
+                    {/* <div className="exp exp-img">
                       <img src={`/images/expertises/${item.image}`} alt="" /> 
-                    </div>
+                    </div> */}
                     <div className="exp exp-text">
                       <div className="exp-title">{ item.title }</div>
                       <div className="exp-separator" />

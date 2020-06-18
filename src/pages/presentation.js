@@ -64,9 +64,9 @@ const Presentation = () => {
             </Modal>
           }
           <div className="mainwrapper presentation-page">
-            <PageHeader img="/images/footer_bg.jpg" page="Présentation" >
+            {/* <PageHeader img="/images/footer_bg.jpg" page="Présentation" >
               <h1>A Propos du Cabinet</h1>
-            </PageHeader>
+            </PageHeader> */}
           <div className="container">   
               <SEO title="Présentation" />
             <div className="ap-wrapper">   

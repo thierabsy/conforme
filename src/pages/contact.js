@@ -12,9 +12,9 @@ const Experts = () => {
       <Layout active="contact">
           <SEO title="Contact" />
           <div className="mainwrapper contact-page">
-            <PageHeader img="/images/contact_us.jpg" page="Contact">
+            {/* <PageHeader img="/images/contact_us.jpg" page="Contact">
               <h1>Contact</h1>
-            </PageHeader>
+            </PageHeader> */}
           <div className="container">   
             <div className="ap-wrapper">   
               <div className="ct-left-img">

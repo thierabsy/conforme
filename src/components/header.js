@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 import { FaEnvelope, FaMobile, FaFacebookF, FaLinkedinIn } from "react-icons/fa"
 import { MdClose, MdMenu } from "react-icons/md"
 import Fade from 'react-reveal/Fade';
+import Typing from 'react-typing-animation';
 
 import { contacts } from "../data/contact" 
 // import Social from "../widgets/socials";
@@ -19,7 +20,7 @@ const Navbar = ({active , toggler}) => {
       </div>
       <div className="topLeft navigation navigation-large">
         <ul>
-          <li className={ `${active === "accueil" ? "active" : ""}` }> 
+          <li className={ `navProd ${active === "accueil" ? "active" : ""}` }> 
             <Link color="white" to="/" onClick={() => toggler("showNav")}>Accueil </Link>
           </li>
           <li className={ `navProd ${active === "presentation" ? "active" : ""}`}> <span className="hsub-title">Présentation</span>
@@ -30,10 +31,10 @@ const Navbar = ({active , toggler}) => {
               <Link to="/presentation" onClick={() => toggler("showNav")}> Valeurs </Link>
             </div>
           </li>
-          <li className={ ` ${active === "domaines-intervention" ? "active" : ""}` }> 
+          <li className={ `navProd ${active === "domaines-intervention" ? "active" : ""}` }> 
             <Link color="white" to="/domaines-intervention" onClick={() => toggler("showNav")}>Domaines</Link>
           </li>
-          <li className={ ` ${active === "notre-expertise" ? "active" : ""}` }> 
+          <li className={ `navProd ${active === "notre-expertise" ? "active" : ""}` }> 
             <Link color="white" to="/notre-expertise" onClick={() => toggler("showNav")}>Expertise</Link>
           </li>
           <li className={ `navProd ${active === "nos-experts" ? "active" : ""}`}> <span className="hsub-title">Nos experts</span>
@@ -44,7 +45,7 @@ const Navbar = ({active , toggler}) => {
               <Link to="/nos-experts" onClick={() => toggler("showNav")}>M. Simon Lazarre BADIANE </Link>
             </div>
           </li>
-          <li className={`${  active === "contact" ? "active" : "" }`}>
+          <li className={`navProd ${  active === "contact" ? "active" : "" }`}>
            <Link color="white" to="/contact" onClick={() => toggler("showNav")}>Contact </Link>  
           </li>
         </ul>
@@ -104,7 +105,12 @@ const Header = ({ active="" }) => {
               <div className="navbar-accueil-logo">
                 <Fade bottom>
                   <img src="/logo.jpg" alt="Logo" />
-                  <p>Conseil - Formation - Management - Etudes</p>
+                  <p>
+                    <Typing hideCursor={ true } speed={ 200 } loop={ true }>
+                      <span>Conseil - Formation - Management - Etudes</span>
+                      <Typing.Reset count={1} delay={1500} />
+                    </Typing>
+                  </p>
                 </Fade>
               </div>
               <div className="navbar-accueil-navigation">
