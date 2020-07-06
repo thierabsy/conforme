@@ -14,6 +14,8 @@ const Experts = () => {
   const [tab, setTab] = useState(null)
   const context = useContext(MainContext);
   const { state: { modalType } } = context;
+  const experts = team.filter(t => t.type === "expert");
+  const associes = team.filter(t => t.type === "associe");
   return(
       <Layout active="nos-experts">
           <SEO title="Nos Experts" />
@@ -32,7 +34,38 @@ const Experts = () => {
               </div>
                 <div className="ap-expertises">
                   {
-                    team.map((item, i) => {
+                    experts.map((item, i) => {
+                      const selected = item.id === tab;
+                      return(
+                        <div  key={"expertise-item--" + i} className={`exp-item ${selected ? "showMore" : ""}`}>
+                        <div className="exp exp-img">
+                          <img src={`/images/team/${item.avatar_s}`} alt="" /> 
+                          <img className="filigrane" src={`/logo.png`} alt="" /> 
+                          <h2>{ item.nom }</h2>
+                        </div>
+                        <div className="exp exp-text">
+                          <h2>{ item.fonction }</h2>
+                          <h3>{ item.titre }</h3>
+                          <div className="exp-separator" />
+                          <div className="exp-content">
+                            <ul>
+                              {
+                                item.description.slice(0, selected ? 100 : 1).map((exp, idx) => <li key={"expertise--" + idx}>
+                                  { exp } { !selected && <sapn className="showMore-btn" onClick={() => setTab(item.id)}>Lire plus...</sapn>}
+                                </li>)}
+                            </ul>
+                          </div>
+                        </div>
+                        </div>
+                      )
+                    })}
+                </div>
+                <div className="ap-header-intro">
+                  <h2>Experts Associés</h2>
+                </div>
+                <div className="ap-expertises">
+                  {
+                    associes.map((item, i) => {
                       const selected = item.id === tab;
                       return(
                         <div  key={"expertise-item--" + i} className={`exp-item ${selected ? "showMore" : ""}`}>

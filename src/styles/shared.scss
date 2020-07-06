@@ -8,7 +8,8 @@ header{
     z-index: 1000;
 }
 .topBar{
-    background: darken($col1, 20%);
+    background: $yellow1;
+    // background: darken($col1, 20%);
     align-items: center;
     // padding: 10px 0;
     border-bottom: 2px solid $yellow1;
@@ -104,23 +105,31 @@ header{
     }
 }
 .navbar-accueil{
-    .navbar-accueil-logo{
-        text-align: center;
-        padding: 20px;
+    .navbar-accueil-logo-wrapper{
+        // text-align: center;
+        padding: 20px 20px 50px;
         background: url(/images/patterns/old_wall.jpg);
         box-shadow: inset 0 0 20px #0000001f;
+    }
+    .navbar-accueil-logo{
+        display: grid;
+        grid-template-columns: 180px 1fr;
+        align-items: flex-end;
+        min-height: 150px;
         img{
-            width: auto;
+            width: 180px;
             height: 100px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.29);
         }
         p{
             margin-bottom: 0;
             padding: 5px;
-            width: 413px;
+            width: 100%;
             height: 36px;
             background: #2692d0;
             margin: 0 auto;
             color: white;
+            font-size: 2em;
             text-transform: uppercase;
             white-space: nowrap;
             overflow: hidden;

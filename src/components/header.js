@@ -102,7 +102,8 @@ const Header = ({ active="" }) => {
       </div>
             <div className="navbar-accueil">
               <div className="bottomBar">
-              <div className="navbar-accueil-logo">
+              <div className="navbar-accueil-logo-wrapper">
+              <div className="container navbar-accueil-logo">
                 <Fade bottom>
                   <img src="/logo.jpg" alt="Logo" />
                   <p>
@@ -112,6 +113,7 @@ const Header = ({ active="" }) => {
                     </Typing>
                   </p>
                 </Fade>
+              </div>
               </div>
               <div className="navbar-accueil-navigation">
                 <Navbar active={ active} toggler={ toggler } />
